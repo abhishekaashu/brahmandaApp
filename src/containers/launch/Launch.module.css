@@ -1,0 +1,44 @@
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;   
+    overflow: hidden; 
+}
+
+.orbit{
+    stroke: white;
+    fill: none;
+    stroke-width: 1px;
+    stroke-dasharray: 5,5;
+}
+
+.svg{
+    position: relative;
+    top : 32px;
+}
+
+.route{
+    stroke: yellowgreen;
+    fill: none;
+    stroke-width: 1px;
+}
+
+.disabled{
+    cursor : not-allowed!important;
+    background-color: gray!important;
+}
+
+.launchBtn{
+    background-color: #3d05ad;
+    padding: 0.5rem 0.8rem;
+    margin : 0.5rem 1rem;
+    text-align: center;
+    left: 50%;
+    position: fixed;
+    bottom: 32px;
+    width: 80px;
+    border-radius: 8px;
+    color : white;
+    font-weight: bold;
+    cursor: pointer;
+}
